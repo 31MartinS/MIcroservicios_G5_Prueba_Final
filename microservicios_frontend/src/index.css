@@ -1,0 +1,94 @@
+/* index.css */
+
+/* Estilo base para todo el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+/* Contenedor principal */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+/* Encabezado de la aplicación */
+h1, h2, h3 {
+  color: #4CAF50; /* Color verde similar al de supermercados */
+  margin: 0 0 20px; /* Ajuste de margen para mejorar la consistencia */
+  text-align: center; /* Centra el texto del encabezado */
+}
+
+/* Formulario de ventas */
+form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los elementos dentro del formulario */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
+
+/* Botones */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Listado de productos */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 600px; /* Asegura que la lista no se expanda más allá del formulario */
+}
+
+li {
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box; /* Asegura que el padding se incluya en el ancho total */
+}
